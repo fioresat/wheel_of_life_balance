@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 wnw(
                   width / 2,
                   paddingWNW,
-                  QuarterCircle(
+                  const QuarterCircle(
                     color: Colors.cyan,
                     circleAlignment: CircleAlignment.wnw,
                   ),
@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ene(
                   width / 2,
                   paddingENE,
-                  QuarterCircle(
+                  const QuarterCircle(
                     color: Colors.lightGreen,
                     circleAlignment: CircleAlignment.ene,
                   ),
@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 wsw(
                   width / 2,
                   paddingWSW,
-                  QuarterCircle(
+                  const QuarterCircle(
                     color: Colors.teal,
                     circleAlignment: CircleAlignment.wsw,
                   ),
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ese(
                   width / 2,
                   paddingESE,
-                  QuarterCircle(
+                  const QuarterCircle(
                     color: Colors.blueGrey,
                     circleAlignment: CircleAlignment.ese,
                   ),
